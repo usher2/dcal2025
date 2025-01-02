@@ -1,0 +1,117 @@
+% !TeX TS-program = xelatex
+%\title{Dodecahedron desk calendar}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you give
+% someone the link to this page, they can edit at the same
+% time. See the help menu above for more info. Enjoy!
+%
+% Note: you can export the pdf to see the result at full
+% resolution.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{extarticle}
+% Folding + calendar example from the PGF manual.
+%
+% Author: Till Tantau
+
+\usepackage[rgb,dvipsnames,svgnames]{xcolor}
+
+%% Fonts etc
+% \usepackage[T1]{fontenc}
+% \usepackage{carlito}
+% \usepackage{caladea}
+% \usepackage{zi4}
+
+\usepackage{fontspec}
+\setmainfont{Carlito}
+\setsansfont{Caladea}
+\setmonofont{Inconsolata}
+
+\usepackage{url}
+
+%% page layouts
+\usepackage[margin=1cm,bottom=2cm,footskip=1.2\baselineskip]{geometry}
+\usepackage{fancyhdr}
+\fancyhf{}
+\renewcommand{\headrule}{}
+\rfoot{\normalsize\raisebox{-0.2ex}{\includegraphics[height=1em]{overleaf-logo}} Make your own dodecahedron desk calendar at
+\url{https://www.overleaf.com/latex/templates/overleaf-calendar/zhzvgdbvpypg}}
+\pagestyle{fancy}
+
+%%%<
+\usepackage{verbatim}
+% \usepackage[active,tightpage]{preview}
+% \PreviewEnvironment{tikzpicture}
+% \setlength\PreviewBorder{5pt}%
+%%%>
+
+\begin{comment}
+:Title: Foldable dodecahedron with Calendar
+:Tags: Calendars; Manual
+:Author: Till Tantau
+
+An example of the folding library and the folding library, straight from
+the manual.
+\end{comment}
+
+%%% Uncomment these two lines if you want localisation
+%%% of the month names. And you'll then probably want to
+%%% Re-define the day-heading list \dhlist below, if you're
+%%% using the dayheadings toggle.
+% \usepackage[french]{babel}
+% \usepackage[french]{translator}
+
+
+
+\usepackage{tikz}
+\usetikzlibrary{calendar,folding}
+
+%% With further mods by LianTze Lim @ Overleaf (Dec 2016)
+\usepackage{OL-calendar-mods}
+
+%%% In case you want to change the weekday headings.
+%%% ALWAYS start from 0 and ALWAYS go from left to right
+%%% irrespective of whether you are using sundayweek
+% \AtBeginDocument{
+%   \renewcommand{\dhlist}{0/D,1/L,2/M,3/M,4/J,5/V,6/S}
+% }
+
+
+%%%%% Customisations
+\definecolor{OLGreen}{HTML}{4F9C45}
+\renewcommand{\SundayColor}{OLGreen}
+\renewcommand{\monthcolor}{OLGreen}
+\renewcommand{\watermarkfile}{overleaf-logo}
+
+%%%%% SET THE YEAR HERE otherwise the _current_ year is used
+\year=2025
+
+%%%%% Uncomment this line to get weeks starting with Sunday
+% \toggletrue{sundayweek}
+
+%%%%% Uncomment this line to get weekday headings
+\toggletrue{dayheadings}
+
+\begin{document}
+    \null\vfill\centering%
+    \sffamily\small\noindent
+    \begin{tikzpicture}[transform shape]
+    \pic [folding line length=9.95em,
+        face 1={ \addwatermark\calendar [dates=\the\year-01-01 to \the\year-01-last];},
+        face 2={ \addwatermark\calendar [dates=\the\year-02-01 to \the\year-02-last];},
+        face 3={ \addwatermark\calendar [dates=\the\year-03-01 to \the\year-03-last];},
+        face 4={ \addwatermark\calendar [dates=\the\year-04-01 to \the\year-04-last];},
+        face 5={ \addwatermark\calendar [dates=\the\year-05-01 to \the\year-05-last];},
+        face 6={ \addwatermark\calendar [dates=\the\year-06-01 to \the\year-06-last];},
+        face 7={ \addwatermark\calendar [dates=\the\year-07-01 to \the\year-07-last];},
+        face 8={ \addwatermark\calendar [dates=\the\year-08-01 to \the\year-08-last];},
+        face 9={ \addwatermark\calendar [dates=\the\year-09-01 to \the\year-09-last];},
+        face 10={\addwatermark\calendar [dates=\the\year-10-01 to \the\year-10-last];},
+        face 11={\addwatermark\calendar [dates=\the\year-11-01 to \the\year-11-last];},
+        face 12={\addwatermark\calendar [dates=\the\year-12-01 to \the\year-12-last];}
+    ]{dodecahedron' folding};
+    \end{tikzpicture}
+    \vfill
+\end{document}

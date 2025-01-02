@@ -1,0 +1,162 @@
+% !TeX TS-program = xelatex
+%\title{Dodecahedron desk calendar}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you give
+% someone the link to this page, they can edit at the same
+% time. See the help menu above for more info. Enjoy!
+%
+% Note: you can export the pdf to see the result at full
+% resolution.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{extarticle}
+% Folding + calendar example from the PGF manual.
+%
+% Author: Till Tantau
+
+\usepackage[rgb,dvipsnames,svgnames]{xcolor}
+
+%% Fonts etc
+% \usepackage[T1]{fontenc}
+% \usepackage{carlito}
+% \usepackage{caladea}
+% \usepackage{zi4}
+
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\setsansfont{Liberation Serif}
+\setmonofont{DejaVu Sans Mono}
+
+\usepackage{url}
+
+\usepackage{setspace}
+\usepackage[none]{hyphenat}
+
+%% page layouts
+\usepackage[margin=1cm,bottom=1.5cm,footskip=\baselineskip]{geometry}
+\usepackage{fancyhdr}
+\fancyhf{}
+\renewcommand{\headrule}{}
+\lfoot{\scriptsize Календарь проекта Эшер II
+\url{https://usher2.club}
+\url{https://t.me/usher2}}
+\pagestyle{fancy}
+
+%%%<
+\usepackage{verbatim}
+% \usepackage[active,tightpage]{preview}
+% \PreviewEnvironment{tikzpicture}
+% \setlength\PreviewBorder{5pt}%
+%%%>
+
+\begin{comment}
+:Title: Foldable dodecahedron with Calendar
+:Tags: Calendars; Manual
+:Author: Till Tantau
+
+An example of the folding library and the folding library, straight from
+the manual.
+\end{comment}
+
+%%% Uncomment these two lines if you want localisation
+%%% of the month names. And you'll then probably want to
+%%% Re-define the day-heading list \dhlist below, if you're
+%%% using the dayheadings toggle.
+\usepackage[russian]{babel}
+\usepackage[russian]{translator}
+
+\usepackage{tikz}
+\usetikzlibrary{calendar,folding}
+
+%% With further mods by LianTze Lim @ Overleaf (Dec 2016)
+\usepackage{OL-calendar-mods}
+
+%%% In case you want to change the weekday headings.
+%%% ALWAYS start from 0 and ALWAYS go from left to right
+%%% irrespective of whether you are using sundayweek
+\AtBeginDocument{
+  \renewcommand{\dhlist}{0/Пн,1/Вт,2/Ср,3/Чт,4/Пт,5/Сб,6/Вс}
+}
+
+
+%%%%% Customisations
+%\definecolor{OLGreen}{HTML}{4F9C45}
+%\renewcommand{\SundayColor}{OLGreen}
+%\renewcommand{\monthcolor}{OLGreen}
+%\renewcommand{\watermarkfile}{usher_2_logo_bg.png}
+\newcommand{\addlogo}{%
+        \node[anchor=south,inner sep=0pt,opacity=0.6] at (0, 1.6) {\includegraphics[width=3.3em]{img/usher_2_logo.png}};%
+}
+
+\definecolor{DarkSlateGray}{HTML}{2F4F4F}
+\definecolor{RKNLight}{HTML}{007EC6}
+\definecolor{RKNDark}{HTML}{003D79}
+\renewcommand{\SundayColor}{RKNLight}
+\renewcommand{\monthcolor}{RKNDark}
+
+%\color{DarkSlateGray}
+
+\newcommand{\RegularColor}{black}
+
+%%%%% SET THE YEAR HERE otherwise the _current_ year is used
+\year=2025
+
+%%%%% Uncomment this line to get weeks starting with Sunday
+% \toggletrue{sundayweek}
+
+%%%%% Uncomment this line to get weekday headings
+\toggletrue{dayheadings}
+
+\begin{document}
+    \hyphenpenalty=10000%
+    \exhyphenpenalty=10000%
+    \null\vfill\centering%
+    \sffamily\small\noindent%
+    \begin{tikzpicture}[transform shape]
+    \pic [folding line length=11em,
+        face 1={\addlogo\calendar [dates=\the\year-01-01 to \the\year-01-last,
+        if={(equals=\the\year-01-01) [\SundayColor]},
+        if={(equals=\the\year-01-02) [\SundayColor]},
+        if={(equals=\the\year-01-03) [\SundayColor]},
+        if={(equals=\the\year-01-06) [\SundayColor]},
+        if={(equals=\the\year-01-07) [\SundayColor]},
+        if={(equals=\the\year-01-08) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.8) {\begin{spacing}{0.8}\scriptsize\textit{Если тебе дали разлинованную бумагу, пиши по-своему}\end{spacing}};},
+        face 2={\addlogo\calendar [dates=\the\year-02-01 to \the\year-02-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{Ведь книги существуют для того, чтобы напоминать нам, какие мы дураки и упрямые ослы}\end{spacing}};},
+        face 3={\addlogo\calendar [dates=\the\year-03-01 to \the\year-03-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -2.1) {\begin{spacing}{0.8}\scriptsize\textit{Гарантируется \\~ свобода мысли и слова}\end{spacing}};},
+        face 4={\addlogo\calendar [dates=\the\year-04-01 to \the\year-04-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.8) {\begin{spacing}{0.8}\scriptsize\textit{Есть преступления хуже, чем сжигать книги. Например – не читать их}\end{spacing}};},
+        face 5={\addlogo\calendar [dates=\the\year-05-01 to \the\year-05-last,
+        if={(equals=\the\year-05-01) [\SundayColor]},
+        if={(equals=\the\year-05-02) [\SundayColor]},
+        if={(equals=\the\year-05-08) [\SundayColor]},
+        if={(equals=\the\year-05-09) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.8) {\begin{spacing}{0.8}\scriptsize\textit{Свобода — это право говорить людям то, чего они не хотят слышать}\end{spacing}};},
+        face 6={\addlogo\calendar [dates=\the\year-06-01 to \the\year-06-last,
+        if={(equals=\the\year-06-12) [\SundayColor]},
+        if={(equals=\the\year-06-13) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -2.1) {\begin{spacing}{0.8}\scriptsize\textit{Каждый имеет право на свободу мнения и выражения}\end{spacing}};},
+        face 7={\addlogo\calendar [dates=\the\year-07-01 to \the\year-07-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{В цензуре логики нет, но цензурой, как и раковой опухолью, пренебрегать опасно, если она имеется в наличии}\end{spacing}};},
+        face 8={\addlogo\calendar [dates=\the\year-08-01 to \the\year-08-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.8) {\begin{spacing}{0.8}\scriptsize\textit{Добрая половина современной культуры зиждется на том, чего читать не следует}\end{spacing}};},
+        face 9={\addlogo\calendar [dates=\the\year-09-01 to \the\year-09-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.8) {\begin{spacing}{0.8}\scriptsize\textit{Я люблю делать то, что не пройдет цензуру}\end{spacing}};},
+        face 10={\addlogo\calendar [dates=\the\year-10-01 to \the\year-10-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.8) {\begin{spacing}{0.8}\scriptsize\textit{Интернет рассматривает цензуру как неисправность и обходит её}\end{spacing}};},
+        face 11={\addlogo\calendar [dates=\the\year-11-01 to \the\year-11-last,
+        if={(equals=\the\year-11-1) [\RegularColor]},
+        if={(equals=\the\year-11-3) [\SundayColor]},
+        if={(equals=\the\year-11-4) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.8) {\begin{spacing}{0.8}\scriptsize\textit{Все они так привыкли лгать, что не могли просто сознаться, что им страшно}\end{spacing}};},
+        face 12={\addlogo\calendar [dates=\the\year-12-01 to \the\year-12-last,
+        if={(equals=\the\year-12-31) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.8) {\begin{spacing}{0.8}\scriptsize\textit{Ради всего святого, Монтрезор!}\end{spacing}};}
+    ]{dodecahedron' folding};
+    \end{tikzpicture}
+    \vfill
+\end{document}

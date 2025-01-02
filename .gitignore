@@ -1,0 +1,16 @@
+*\~
+*.swp
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.nav
+*.out
+*.xml
+*.snm
+*.toc
+*.vrb
+example*.tex
+slide\-*.png
+slideHD\-*.png
