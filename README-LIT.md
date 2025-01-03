@@ -3,7 +3,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 
 ## Citatos
 
-##🎄 Sausis
+###🎄 Sausis
 
 **Originalo kalba (ispaniškai):**  
 > Si os dan papel pautado, escribid por el otro lado  
@@ -17,7 +17,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 **Aprašymas (lietuviškai):**
 Šią frazę pasakė ispanų poetas Chuanas Ramonas Chimenesas (Juan Ramón Jiménez), 1956 m. Nobelio literatūros premijos laureatas „už lyrinę poeziją, kuri ispanų kalboje yra aukštos dvasios ir meninio tyrumo pavyzdys“. Kai kuriuose Rejaus Bredberio (Ray Bradbury) knygos *Farenheitas 451* (angl. *Fahrenheit 451*) leidiniuose ši citata naudojama kaip epigrafas.
 
-## ☃️  Vasaris
+### ☃️  Vasaris
 
 **Angliškai:**  
 > Books are to remind us what asses and fools we are  
@@ -28,8 +28,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 **Aprašymas (lietuviškai):**  
 Ši citata priklauso Rejui Bredberiui (Ray Bradbury) ir paimta iš jo romano *Farenheitas 451*. Ją ištaria personažas Faberis, aiškindamas knygų reikšmę pagrindiniam veikėjui Gajui Montegui. Citata pasirodo antroje romano dalyje „Sietelis ir smėlis“, 3 skyriuje.
 
-
-## 🌱 Kovas
+### 🌱 Kovas
 
 **Lietuviškai:**  
 > Žmogus turi teisę turėti savo įsitikinimus ir juos laisvai reikšti
@@ -46,8 +45,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 4. Laisvė reikšti įsitikinimus ir skleisti informaciją nesuderinama su nusikalstama veikla – tautinės, rasinės, religinės ar socialinės neapykantos, prievartos ar diskriminacijos kurstymu, šmeižtu ir dezinformacija. Įstatymas turi drausti kurstyti neapykantą, prievartą ar diskriminaciją lyties, seksualinės orientacijos, tautybės, kalbos, kilmės, socialinės padėties, tikėjimo, įsitikinimų ar pažiūrų pagrindais.  
 5. Piliečiai turi teisę gauti iš valstybės įstaigų bet kokią turimą informaciją, susijusią su jais, įstatymo nustatyta tvarka.
 
-
-## 🌈 Balandis
+### 🌈 Balandis
 
 **Angliškai:**  
 > There are worse crimes than burning books. One of them is not reading them  
@@ -58,7 +56,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 **Aprašymas (lietuviškai):**  
 Dažniausiai ši citata siejama su Josifu Brodskiu (Joseph Brodsky), tačiau ji taip pat priskiriama ir Rejui Bredberiui. Manoma, kad Brodskis galėjo tai pasakyti 1991 m. gegužės 17 d. spaudos konferencijoje. Šią versiją nurodo ketvirtasis Oksfordo universiteto sudarytas *Oxford Essential Quotations* leidimas.
 
-## ⛈ Gegužė
+### ⛈ Gegužė
 
 **Angliškai:**  
 > Freedom is the right to tell people what they do not want to hear  
@@ -69,7 +67,7 @@ Dažniausiai ši citata siejama su Josifu Brodskiu (Joseph Brodsky), tačiau ji 
 **Aprašymas (lietuviškai):**  
 Citatą randame Džordžo Orvelo (George Orwell) esė „Spaudos laisvė“ (angl. „The Freedom of the Press“). Ji turėjo būti įžanga prie garsiosios apysakos *Gyvulių ūkis* (angl. *Animal Farm*), tačiau nebuvo įtraukta į pirmąjį originalų leidimą ir paskelbta tik vėliau.
 
-## 🌷 Birželis
+### 🌷 Birželis
 
 **Angliškai:**  
 > Everyone has the right to freedom of opinion and expression  
@@ -80,8 +78,7 @@ Citatą randame Džordžo Orvelo (George Orwell) esė „Spaudos laisvė“ (ang
 **Aprašymas (lietuviškai):**  
 Tai frazė iš 19-ojo Visuotinės žmogaus teisių deklaracijos (priimtos Jungtinių Tautų Generalinėje Asamblėjoje 1948 m. gruodžio 10 d.) straipsnio.
 
-
-## ☀️  Liepa
+### ☀️  Liepa
 
 **Angliškai:**  
 > Censorship is never logical but, like cancer, it is dangerous to ignore it when it shows up  
@@ -92,8 +89,7 @@ Tai frazė iš 19-ojo Visuotinės žmogaus teisių deklaracijos (priimtos Jungti
 **Aprašymas (lietuviškai):**  
 Ši citata priskiriama Robertui Heinleinui (Robert A. Heinlein) ir yra iš jo romano *Plaukti anapus saulėlydžio* (angl. *To Sail Beyond the Sunset*), išleisto 1987 m.
 
-
-## 🌻 Rugpjūtis
+### 🌻 Rugpjūtis
 
 **Angliškai:**  
 > The good half of the modern culture depends on what one shouldn't read  
@@ -104,7 +100,7 @@ Tai frazė iš 19-ojo Visuotinės žmogaus teisių deklaracijos (priimtos Jungti
 **Aprašymas (lietuviškai):**  
 Citatą rasime Oscaro Vaildo (Oscar Wilde) komedijoje *Kaip svarbu būti rimtam* (angl. *The Importance of Being Earnest*), pirmą kartą pastatytoje 1895 m. vasario 14 d.
 
-## 🍄‍🟫 Rugsėjis
+### 🍄‍🟫 Rugsėjis
 
 **Angliškai:**  
 > I love to do things that won't pass censorship  
@@ -115,8 +111,7 @@ Citatą rasime Oscaro Vaildo (Oscar Wilde) komedijoje *Kaip svarbu būti rimtam*
 **Aprašymas (lietuviškai):**  
 Autorystė nėra patikimai nustatyta. Dažnai teigiama, kad tai pasakė Merilina Monro (Marilyn Monroe), tačiau citata taip pat priskiriama Jekaterinai Mizulinai, Antonui Gorelkinui, Žanai d’Ark ar Kleopatrai. Patvirtinimo nėra.
 
-
-## 🍁 Spalis
+### 🍁 Spalis
 
 **Angliškai:**  
 > The Net interprets censorship as damage and routes around it  
@@ -127,8 +122,7 @@ Autorystė nėra patikimai nustatyta. Dažnai teigiama, kad tai pasakė Merilina
 **Aprašymas (lietuviškai):**  
 Tai Džono Gilmoro (John Gilmore) – amerikiečių programuotojo, aktyvisto ir vieno iš *Electronic Frontier Foundation* (EFF) įkūrėjų – citata, paskelbta 1993 m. žurnale *Time*.
 
-
-## ☔️ Lapkritis
+### ☔️ Lapkritis
 
 **Originalo kalba (itališkai):**  
 > Erano così abituati a mentire che non potevano semplicemente ammettere di avere paura  
@@ -142,7 +136,7 @@ Tai Džono Gilmoro (John Gilmore) – amerikiečių programuotojo, aktyvisto ir 
 **Aprašymas (lietuviškai):**  
 Citata iš Džanio Rodario (Gianni Rodari) knygos *Dželsominas melagių šalyje* (it. *Gelsomino nel paese dei bugiardi*), pirmą kartą išleistos 1959 m.
 
-## ❄️  Gruodis
+### ❄️  Gruodis
 
 **Angliškai (Edgaro Alano Po tekstas):**  
 > For the love of God, Montresor!  
