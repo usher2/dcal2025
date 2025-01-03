@@ -3,7 +3,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 
 ## Citatos
 
-###🎄 Sausis
+### 🎄 Sausis
 
 **Originalo kalba (ispaniškai):**  
 > Si os dan papel pautado, escribid por el otro lado  
