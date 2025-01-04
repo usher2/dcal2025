@@ -8,12 +8,12 @@ if [ "x${article}" = "x" ]; then
 fi
 
 if [ -x "/usr/bin/convert" ]; then
-        if [ ! -d "slideHD" ]; then
+        if [ ! -d "slideHD/${article}" ]; then
                 mkdir -p slideHD/${article}
         fi
         cd slideHD/${article}
         rm -f *.png
-        convert -verbose -strip -density 300 ../${article}.pdf -quality 100 PNG24:slide-%02d.png
+        convert -verbose -strip -density 300 ../../${article}.pdf -quality 100 PNG24:slide-%02d.png
 else
         echo "You must install ImageMagick!"
 fi
