@@ -14,10 +14,10 @@ Dodecahedron desk calendar 2025
 | [RU freedom of speech Legend in RUSSIAN](README-RUS.md) | [CZ freedom of speech in CZECH](README-CZE.md) |
 
 
-| 🇺🇸 Freedom of speech | |
+| 🇺🇸 Freedom of speech | 🇷🇺 VPN |
 | --- | --- |
-| [![ Calendar of the Usher II project. Freedom of speech](dcal2025-en.png)](dcal2025-en.pdf) |
-| [EN freedom of speech Legend in ENGLISH](README-ENG.md) | |
+| [![Calendar of the Usher II project. Freedom of speech](dcal2025-en.png)](dcal2025-en.pdf) | [![Календарь проекта Эшер II. VPN](dcal2025-vpn-ru.png)](dcal2025-vpn-ru.pdf) |
+| [EN freedom of speech Legend in ENGLISH](README-ENG.md) | - |
 
 
 ---

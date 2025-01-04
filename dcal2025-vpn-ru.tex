@@ -1,0 +1,180 @@
+% !TeX TS-program = xelatex
+%\title{Dodecahedron desk calendar}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you give
+% someone the link to this page, they can edit at the same
+% time. See the help menu above for more info. Enjoy!
+%
+% Note: you can export the pdf to see the result at full
+% resolution.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{extarticle}
+% Folding + calendar example from the PGF manual.
+%
+% Author: Till Tantau
+
+\usepackage[rgb,dvipsnames,svgnames]{xcolor}
+
+%% Fonts etc
+% \usepackage[T1]{fontenc}
+% \usepackage{carlito}
+% \usepackage{caladea}
+% \usepackage{zi4}
+
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\setsansfont{Liberation Serif}
+\setmonofont{DejaVu Sans Mono}
+
+\usepackage{url}
+
+\usepackage{setspace}
+\usepackage[none]{hyphenat}
+
+%% page layouts
+\usepackage[margin=1cm,bottom=1.5cm,footskip=\baselineskip]{geometry}
+\usepackage{fancyhdr}
+\fancyhf{}
+\renewcommand{\headrule}{}
+\lfoot{\scriptsize Календарь проекта Эшер II: \url{https://usher2.club}, \url{https://t.me/usher2}}
+\pagestyle{fancy}
+
+%%%<
+\usepackage{verbatim}
+% \usepackage[active,tightpage]{preview}
+% \PreviewEnvironment{tikzpicture}
+% \setlength\PreviewBorder{5pt}%
+%%%>
+
+\begin{comment}
+:Title: Foldable dodecahedron with Calendar
+:Tags: Calendars; Manual
+:Author: Till Tantau
+
+An example of the folding library and the folding library, straight from
+the manual.
+\end{comment}
+
+%%% Uncomment these two lines if you want localisation
+%%% of the month names. And you'll then probably want to
+%%% Re-define the day-heading list \dhlist below, if you're
+%%% using the dayheadings toggle.
+\usepackage[russian]{babel}
+\usepackage[russian]{translator}
+
+\usepackage{tikz}
+\usetikzlibrary{calendar,folding}
+
+%% With further mods by LianTze Lim @ Overleaf (Dec 2016)
+\usepackage{OL-calendar-mods}
+
+%%% In case you want to change the weekday headings.
+%%% ALWAYS start from 0 and ALWAYS go from left to right
+%%% irrespective of whether you are using sundayweek
+\AtBeginDocument{
+  \renewcommand{\dhlist}{0/Пн,1/Вт,2/Ср,3/Чт,4/Пт,5/Сб,6/Вс}
+}
+
+
+%%%%% Customisations
+%\definecolor{OLGreen}{HTML}{4F9C45}
+%\renewcommand{\SundayColor}{OLGreen}
+%\renewcommand{\monthcolor}{OLGreen}
+%\renewcommand{\watermarkfile}{usher_2_logo_bg.png}
+\newcommand{\addlogo}{%
+        \node[anchor=south,inner sep=0pt,opacity=0.6] at (0, 1.6) {\includegraphics[width=3.3em]{img/usher_2_logo.png}};%
+}
+
+
+\definecolor{RegularColorPallete1}{HTML}{4B2E07}
+\definecolor{SundayColorPallete1}{HTML}{CC6D1A}
+\definecolor{MonthColorPallete1}{HTML}{E67E22}
+\definecolor{BlockQuoteColorPallete1}{HTML}{6D481F}
+
+\definecolor{RegularColorPallete2}{HTML}{5C3D10}
+\definecolor{SundayColorPallete2}{HTML}{FF7F27}
+\definecolor{MonthColorPallete2}{HTML}{D35400}
+\definecolor{BlockQuoteColorPallete2}{HTML}{7C592C}
+
+\definecolor{RegularColorPallete3}{HTML}{4F2817}
+\definecolor{SundayColorPallete3}{HTML}{F98948}
+\definecolor{MonthColorPallete3}{HTML}{FD7326}
+\definecolor{BlockQuoteColorPallete3}{HTML}{7B4833}
+
+\definecolor{RegularColorPallete4}{HTML}{3D2B1F}
+\definecolor{SundayColorPallete4}{HTML}{D87F33}
+\definecolor{MonthColorPallete4}{HTML}{F39C12}
+\definecolor{BlockQuoteColorPallete4}{HTML}{5F4939}
+
+
+\newcommand{\RegularColor}{RegularColorPallete2}
+\color{RegularColorPallete2}
+
+\renewcommand{\SundayColor}{SundayColorPallete2}
+\renewcommand{\monthcolor}{MonthColorPallete2}
+
+\colorlet{BlockQuoteColor}{BlockQuoteColorPallete2}
+
+%%%%% SET THE YEAR HERE otherwise the _current_ year is used
+\year=2025
+
+%%%%% Uncomment this line to get weeks starting with Sunday
+% \toggletrue{sundayweek}
+
+%%%%% Uncomment this line to get weekday headings
+\toggletrue{dayheadings}
+
+\begin{document}
+    \hyphenpenalty=10000%
+    \exhyphenpenalty=10000%
+    \null\vfill\centering%
+    \sffamily\small\noindent%
+    \begin{tikzpicture}[transform shape]
+    \pic [folding line length=11em,
+        face 1={\addlogo\calendar [dates=\the\year-01-01 to \the\year-01-last,
+        if={(equals=\the\year-01-01) [\SundayColor]},
+        if={(equals=\the\year-01-02) [\SundayColor]},
+        if={(equals=\the\year-01-03) [\SundayColor]},
+        if={(equals=\the\year-01-06) [\SundayColor]},
+        if={(equals=\the\year-01-07) [\SundayColor]},
+        if={(equals=\the\year-01-08) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{Торжественно клянусь, что замышляю шалость, и только шалость!}\end{spacing}};},
+        face 2={\addlogo\calendar [dates=\the\year-02-01 to \the\year-02-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{X-Ray (Project X)}: экосистема протоколов и технологий. Популярные комбинации - XTLS-Reality и XHTTP}\end{spacing}};},
+        face 3={\addlogo\calendar [dates=\the\year-03-01 to \the\year-03-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -2.1) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Woreguard}: очень простой протокол VPN, легко обнаруживается}\end{spacing}};},
+        face 4={\addlogo\calendar [dates=\the\year-04-01 to \the\year-04-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Amnezia Wireguard}: изменённый для усложнения обнаружения Wireguard. Разработка AmneziaVPN}\end{spacing}};},
+        face 5={\addlogo\calendar [dates=\the\year-05-01 to \the\year-05-last,
+        if={(equals=\the\year-05-01) [\SundayColor]},
+        if={(equals=\the\year-05-02) [\SundayColor]},
+        if={(equals=\the\year-05-08) [\SundayColor]},
+        if={(equals=\the\year-05-09) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{VPN}: частная виртуальная сеть. Для соединения сетей, защиты соединения, а теперь и обхода блокировок}\end{spacing}};},
+        face 6={\addlogo\calendar [dates=\the\year-06-01 to \the\year-06-last,
+        if={(equals=\the\year-06-12) [\SundayColor]},
+        if={(equals=\the\year-06-13) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -2.1) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{ShadowSocks}: развитие прокси Socks5 с шифрованием}\end{spacing}};},
+        face 7={\addlogo\calendar [dates=\the\year-07-01 to \the\year-07-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Tor}: (луковый маршрутизатор) - позволяет относительно анонимно пользоваться сетью и обходтить блокировки}\end{spacing}};},
+        face 8={\addlogo\calendar [dates=\the\year-08-01 to \the\year-08-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Ceno}: браузер для обхода цензуры с использованием торрент-протокола. Проект eQualit.ie}\end{spacing}};},
+        face 9={\addlogo\calendar [dates=\the\year-09-01 to \the\year-09-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Эшер II}: проект существующий с целью курощения, низведения и дуракаваляния Роскомнадзора}\end{spacing}};},
+        face 10={\addlogo\calendar [dates=\the\year-10-01 to \the\year-10-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{3x-UI}, \textbf{AmneziaVPN}, \textbf{VPN Generator}, \textbf{Outline}, \textbf{Ceno}, \textbf{Tor}: от врагов}\end{spacing}};},
+        face 11={\addlogo\calendar [dates=\the\year-11-01 to \the\year-11-last,
+        if={(equals=\the\year-11-1) [\RegularColor]},
+        if={(equals=\the\year-11-3) [\SundayColor]},
+        if={(equals=\the\year-11-4) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Outline}: система автоматической установки и клиент VPN на основе ShadowSocksAEAD}\end{spacing}};},
+        face 12={\addlogo\calendar [dates=\the\year-12-01 to \the\year-12-last,
+        if={(equals=\the\year-12-31) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{Шалость удалась!}\end{spacing}};}
+    ]{dodecahedron' folding};
+    \end{tikzpicture}
+    \vfill
+\end{document}
