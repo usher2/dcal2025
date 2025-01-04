@@ -1,0 +1,146 @@
+% !TeX TS-program = xelatex
+%\title{Dodecahedron desk calendar}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you give
+% someone the link to this page, they can edit at the same
+% time. See the help menu above for more info. Enjoy!
+%
+% Note: you can export the pdf to see the result at full
+% resolution.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{extarticle}
+% Folding + calendar example from the PGF manual.
+%
+% Author: Till Tantau
+
+\usepackage[rgb,dvipsnames,svgnames]{xcolor}
+
+%% Fonts etc
+% \usepackage[T1]{fontenc}
+% \usepackage{carlito}
+% \usepackage{caladea}
+% \usepackage{zi4}
+
+\usepackage{fontspec}
+\setmainfont{Carlito}
+\setsansfont{Caladea}
+\setmonofont{Inconsolata}
+
+\usepackage{url}
+
+\usepackage{setspace}
+\usepackage[none]{hyphenat}
+
+%% page layouts
+\usepackage[margin=1cm,bottom=1.5cm,footskip=\baselineskip]{geometry}
+\usepackage{fancyhdr}
+\fancyhf{}
+\renewcommand{\headrule}{}
+\lfoot{\scriptsize Calendar of the Usher II project
+\url{https://usher2.club}
+\url{https://t.me/usher2}}
+\pagestyle{fancy}
+
+%%%<
+\usepackage{verbatim}
+% \usepackage[active,tightpage]{preview}
+% \PreviewEnvironment{tikzpicture}
+% \setlength\PreviewBorder{5pt}%
+%%%>
+
+\begin{comment}
+:Title: Foldable dodecahedron with Calendar
+:Tags: Calendars; Manual
+:Author: Till Tantau
+
+An example of the folding library and the folding library, straight from
+the manual.
+\end{comment}
+
+%%% Uncomment these two lines if you want localisation
+%%% of the month names. And you'll then probably want to
+%%% Re-define the day-heading list \dhlist below, if you're
+%%% using the dayheadings toggle.
+\usepackage[english]{babel}
+\usepackage[english]{translator}
+
+\usepackage{tikz}
+\usetikzlibrary{calendar,folding}
+
+%% With further mods by LianTze Lim @ Overleaf (Dec 2016)
+\usepackage{OL-calendar-mods}
+
+%%% In case you want to change the weekday headings.
+%%% ALWAYS start from 0 and ALWAYS go from left to right
+%%% irrespective of whether you are using sundayweek
+\AtBeginDocument{
+  \renewcommand{\dhlist}{0/Mo,1/Tu,2/We,3/Th,4/Fr,5/Sa,6/So}
+}
+
+
+%%%%% Customisations
+%\definecolor{OLGreen}{HTML}{4F9C45}
+%\renewcommand{\SundayColor}{OLGreen}
+%\renewcommand{\monthcolor}{OLGreen}
+%\renewcommand{\watermarkfile}{usher_2_logo_bg.png}
+\newcommand{\addlogo}{%
+        \node[anchor=south,inner sep=0pt,opacity=0.6] at (0, 1.55) {\includegraphics[width=3.3em]{img/usher_logo_en_tglink.png}};%
+}
+
+\definecolor{DarkSlateGray}{HTML}{2F4F4F}
+\definecolor{RKNLight}{HTML}{007EC6}
+\definecolor{RKNDark}{HTML}{003D79}
+\renewcommand{\SundayColor}{RKNLight}
+\renewcommand{\monthcolor}{RKNDark}
+
+%\color{DarkSlateGray}
+
+\newcommand{\RegularColor}{black}
+
+%%%%% SET THE YEAR HERE otherwise the _current_ year is used
+\year=2025
+
+%%%%% Uncomment this line to get weeks starting with Sunday
+% \toggletrue{sundayweek}
+
+%%%%% Uncomment this line to get weekday headings
+\toggletrue{dayheadings}
+
+\begin{document}
+    \hyphenpenalty=10000%
+    \exhyphenpenalty=10000%
+    \null\vfill\centering%
+    \sffamily\small\noindent%
+    \begin{tikzpicture}[transform shape]
+    \pic [folding line length=11em,
+        face 1={\addlogo\calendar [dates=\the\year-01-01 to \the\year-01-last];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{If they give you ruled paper, write the other way}\end{spacing}};},
+        face 2={\addlogo\calendar [dates=\the\year-02-01 to \the\year-02-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{Books are to remind us what asses and fools we are}\end{spacing}};},
+        face 3={\addlogo\calendar [dates=\the\year-03-01 to \the\year-03-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -2.1) {\begin{spacing}{0.8}\scriptsize\textit{Congress shall make no law respecting an abridging the freedom of speech}\end{spacing}};},
+        face 4={\addlogo\calendar [dates=\the\year-04-01 to \the\year-04-last];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{There are worse crimes than burning books. One of them is not reading them}\end{spacing}};},
+        face 5={\addlogo\calendar [dates=\the\year-05-01 to \the\year-05-last];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{Freedom is the right to tell people what they do not want to hear}\end{spacing}};},
+        face 6={\addlogo\calendar [dates=\the\year-06-01 to \the\year-06-last];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -2.1) {\begin{spacing}{0.8}\scriptsize\textit{Everyone has the right to freedom of opinion and expression}\end{spacing}};},
+        face 7={\addlogo\calendar [dates=\the\year-07-01 to \the\year-07-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{Censorship is never logical but, like cancer, it is dangerous to ignore it when it shows up}\end{spacing}};},
+        face 8={\addlogo\calendar [dates=\the\year-08-01 to \the\year-08-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{The good half of the modern culture depends on what one shouldn't read}\end{spacing}};},
+        face 9={\addlogo\calendar [dates=\the\year-09-01 to \the\year-09-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{I love to do things that won't pass censorship}\end{spacing}};},
+        face 10={\addlogo\calendar [dates=\the\year-10-01 to \the\year-10-last];
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{The Net interprets censorship as damage and routes around it}\end{spacing}};},
+        face 11={\addlogo\calendar [dates=\the\year-11-01 to \the\year-11-last];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{They were so used to lying that they couldn't simply admit they were afraid}\end{spacing}};},
+        face 12={\addlogo\calendar [dates=\the\year-12-01 to \the\year-12-last];%
+        \node[align=center, text width=11em,inner sep=0, text=DarkSlateGray] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{For the love of God, Montresor!}\end{spacing}};}
+    ]{dodecahedron' folding};
+    \end{tikzpicture}
+    \vfill
+\end{document}
