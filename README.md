@@ -4,7 +4,7 @@ Dodecahedron desk calendar 2025
 * Usher II branding
 * Created with LaTeX
 
-![Календарь проекта Эшер II. Свобода слова. Образец](img/example-ru.png)
+![Календарь проекта Эшер II. Свобода слова. Образец](img/example-ru.jpg)
 
 # Calendars
 
