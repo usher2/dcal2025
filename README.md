@@ -5,6 +5,7 @@ Dodecahedron desk calendar 2025
 * Created with LaTeX
 
 * [RU version in RUSSIAN](README-RUS.md)
+* [CZ version in CZECH](README-CZE.md)
 
 
 ---
