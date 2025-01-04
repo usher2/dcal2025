@@ -73,10 +73,11 @@ Citatą randame Džordžo Orvelo (George Orwell) esė „Spaudos laisvė“ (ang
 > Everyone has the right to freedom of opinion and expression  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Kiekvienas turi teisę į savo nuomonę ir jos laisvą reiškimą  
+> Kiekvienas turi teisę laisvai laikytis savo įsitikinimų ir juos reikšti
 
 **Aprašymas (lietuviškai):**  
 Tai frazė iš 19-ojo Visuotinės žmogaus teisių deklaracijos (priimtos Jungtinių Tautų Generalinėje Asamblėjoje 1948 m. gruodžio 10 d.) straipsnio.
+https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.278385
 
 ### ☀️  Liepa
 
