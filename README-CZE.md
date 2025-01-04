@@ -15,7 +15,7 @@ Níže jsou uvedeny všechny původní citáty (resp. jejich anglická, španěl
 > If they give you ruled paper, write the other way  
 
 **Česky (typický překlad):**  
-> Když vám dají linkovaný papír, pište opačně  
+> Dají-li vám linkovaný papír, pište napříč  
 
 **Vysvětlení (česky):**  
 Tuto větu pronesl španělský básník Juan Ramón Jiménez, nositel Nobelovy ceny za literaturu (1956) „za svou lyrickou poezii, která ve španělštině představuje příklad vysokého ducha a umělecké čistoty“. Některá vydání Bradburyho knihy *451 stupňů Fahrenheita* (angl. *Fahrenheit 451*) tuto větu používají jako epigraf.
@@ -39,7 +39,7 @@ Tento citát pochází od Raye Bradburyho a je z jeho románu *451 stupňů Fahr
 > Freedom of thought and speech is guaranteed  
 
 **Česky (typický překlad):**  
-> Je zaručena svoboda myšlení a slova  
+> Svoboda myšlení a projevu je zaručena
 
 **Vysvětlení (česky):**  
 Toto ustanovení odpovídá článku 29, odst. 1 Ústavy Ruské federace.
@@ -51,7 +51,7 @@ Toto ustanovení odpovídá článku 29, odst. 1 Ústavy Ruské federace.
 > There are worse crimes than burning books. One of them is not reading them  
 
 **Česky (typický překlad):**  
-> Existují horší zločiny než pálení knih. Jedním z nich je nečíst je  
+> Jsou horší zločiny než pálení knih. Daleko horší je je nečíst
 
 **Vysvětlení (česky):**  
 Citát je nejčastěji připisován Josifu Brodskému, ačkoli bývá spojován i s Rayem Bradburym. Tvrdí se, že Brodskij ji mohl pronést na tiskové konferenci 17. května 1991. Tuto verzi uvádí čtvrté vydání *Oxford Essential Quotations* zpracované Oxfordskou univerzitou.
@@ -87,10 +87,10 @@ Tato věta pochází z článku 19 Všeobecné deklarace lidských práv, přija
 > Censorship is never logical but, like cancer, it is dangerous to ignore it when it shows up  
 
 **Česky (typický překlad):**  
-> Cenzura nikdy není logická, ale podobně jako rakovina je nebezpečné ji ignorovat, jakmile se objeví  
+> Cenzura není nikdy logická, ale stejně jako u rakoviny je nebezpečné ignorovat ji, když se už objeví
 
 **Vysvětlení (česky):**  
-Tento citát se připisuje Robertu A. Heinleinovi a nachází se v jeho románu *Odplout za západ slunce* (angl. *To Sail Beyond the Sunset*), vydaném roku 1987.
+Tento citát se připisuje Robertu A. Heinleinovi a nachází se v jeho románu *Až za slunce západ plout* (angl. *To Sail Beyond the Sunset*), vydaném roku 1987.
 
 ---
 
@@ -99,7 +99,7 @@ Tento citát se připisuje Robertu A. Heinleinovi a nachází se v jeho románu 
 > The good half of the modern culture depends on what one shouldn't read  
 
 **Česky (typický překlad):**  
-> Dobrá polovina moderní kultury spočívá v tom, co by se vůbec nemělo číst  
+> Přes polovinu moderní kultury závisí na tom, co se číst nemá
 
 **Vysvětlení (česky):**  
 Citát pochází z komedie Oscara Wildea *Jak je důležité míti Filipa* (angl. *The Importance of Being Earnest*), poprvé uvedené 14. února 1895.
@@ -141,7 +141,7 @@ Autorem je John Gilmore, americký programátor, hacktivista a jeden ze zakladat
 > Byli tak zvyklí lhát, že nedokázali jednoduše přiznat, že se bojí  
 
 **Vysvětlení (česky):**  
-Tento citát pochází z knihy Gianniho Rodariho *Gelsomino v zemi lhářů* (it. *Gelsomino nel paese dei bugiardi*), která poprvé vyšla roku 1959.
+Tento citát pochází z knihy Gianniho Rodariho *Jasmínek v zemi lhářů* (it. *Gelsomino nel paese dei bugiardi*), která poprvé vyšla roku 1959.
 
 ---
 
