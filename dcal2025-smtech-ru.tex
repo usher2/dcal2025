@@ -1,0 +1,174 @@
+% !TeX TS-program = xelatex
+%\title{Dodecahedron desk calendar}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you give
+% someone the link to this page, they can edit at the same
+% time. See the help menu above for more info. Enjoy!
+%
+% Note: you can export the pdf to see the result at full
+% resolution.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper]{extarticle}
+% Folding + calendar example from the PGF manual.
+%
+% Author: Till Tantau
+
+\usepackage[rgb,dvipsnames,svgnames]{xcolor}
+
+%% Fonts etc
+% \usepackage[T1]{fontenc}
+% \usepackage{carlito}
+% \usepackage{caladea}
+% \usepackage{zi4}
+
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\setsansfont{Liberation Serif}
+\setmonofont{DejaVu Sans Mono}
+
+\usepackage{url}
+
+\usepackage{setspace}
+%\usepackage[none]{hyphenat}
+
+%% page layouts
+\usepackage[margin=1cm,bottom=1.5cm,footskip=\baselineskip]{geometry}
+\usepackage{fancyhdr}
+\fancyhf{}
+\renewcommand{\headrule}{}
+\lfoot{\scriptsize Календарь рудокопов: \url{https://smtech.ru}, создан \url{https://github.com/usher2/dcal2025}}
+\pagestyle{fancy}
+
+%%%<
+\usepackage{verbatim}
+% \usepackage[active,tightpage]{preview}
+% \PreviewEnvironment{tikzpicture}
+% \setlength\PreviewBorder{5pt}%
+%%%>
+
+\begin{comment}
+:Title: Foldable dodecahedron with Calendar
+:Tags: Calendars; Manual
+:Author: Till Tantau
+
+An example of the folding library and the folding library, straight from
+the manual.
+\end{comment}
+
+%%% Uncomment these two lines if you want localisation
+%%% of the month names. And you'll then probably want to
+%%% Re-define the day-heading list \dhlist below, if you're
+%%% using the dayheadings toggle.
+\usepackage[russian]{babel}
+\usepackage[russian]{translator}
+
+\usepackage{tikz}
+\usetikzlibrary{calendar,folding}
+
+%% With further mods by LianTze Lim @ Overleaf (Dec 2016)
+\usepackage{OL-calendar-mods}
+
+%%% In case you want to change the weekday headings.
+%%% ALWAYS start from 0 and ALWAYS go from left to right
+%%% irrespective of whether you are using sundayweek
+\AtBeginDocument{
+  \renewcommand{\dhlist}{0/Пн,1/Вт,2/Ср,3/Чт,4/Пт,5/Сб,6/Вс}
+}
+
+
+%%%%% Customisations
+%\definecolor{OLGreen}{HTML}{4F9C45}
+%\renewcommand{\SundayColor}{OLGreen}
+%\renewcommand{\monthcolor}{OLGreen}
+%\renewcommand{\watermarkfile}{img/smtech_bg.png}
+
+\newcommand{\addlogo}{%
+        \node[anchor=south,inner sep=0pt,opacity=0.6] at (0, 1.9) {\includegraphics[width=3.65em]{img/smtech_logo.png}};%
+}
+
+\newcommand{\addwatermarkx}[1]{%
+  \node[inner sep=0pt,opacity=0.1,yshift=-1em]{\includegraphics[width=10em]{#1}};%
+}
+
+%\definecolor{RegularColorPallete1}{HTML}{4B2E07}
+\colorlet{RegularColorPallete1}{black}
+\definecolor{SundayColorPallete1}{HTML}{00a9e5}
+\definecolor{MonthColorPallete1}{HTML}{00a9e5}
+\definecolor{BlockQuoteColorPallete1}{HTML}{E67E22}
+
+\definecolor{MinersDayPallete1}{HTML}{FD7326}
+\newcommand{\MinersDay}{MinersDayPallete1}
+
+\newcommand{\RegularColor}{RegularColorPallete1}
+\color{RegularColorPallete1}
+
+\renewcommand{\SundayColor}{SundayColorPallete1}
+\renewcommand{\monthcolor}{MonthColorPallete1}
+
+\colorlet{BlockQuoteColor}{BlockQuoteColorPallete1}
+
+%%%%% SET THE YEAR HERE otherwise the _current_ year is used
+\year=2025
+
+%%%%% Uncomment this line to get weeks starting with Sunday
+% \toggletrue{sundayweek}
+
+%%%%% Uncomment this line to get weekday headings
+\toggletrue{dayheadings}
+
+\begin{document}
+    %\hyphenpenalty=10000%
+    %\exhyphenpenalty=10000%
+    \null\vfill\centering%
+    \sffamily\small\noindent%
+    \begin{tikzpicture}[transform shape]
+    \pic [folding line length=11em,
+        face 1={\addwatermarkx{img/smtech_bg.png}\addlogo\calendar [dates=\the\year-01-01 to \the\year-01-last,
+        if={(equals=\the\year-01-01) [\SundayColor]},
+        if={(equals=\the\year-01-02) [\SundayColor]},
+        if={(equals=\the\year-01-03) [\SundayColor]},
+        if={(equals=\the\year-01-06) [\SundayColor]},
+        if={(equals=\the\year-01-07) [\SundayColor]},
+        if={(equals=\the\year-01-08) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Ру́дник}: горнопромышленное предприятие по добыче полезных ископаемых подземным или открытым способом}\end{spacing}};},
+        face 2={\addwatermarkx{img/smtech-feb.png}\addlogo\calendar [dates=\the\year-02-01 to \the\year-02-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Ствол}: вертикальная выработка, обслуживающая подземные работы и имеющая выход на поверхность}\end{spacing}};},
+        face 3={\addwatermarkx{img/smtech-mar.png}\addlogo\calendar [dates=\the\year-03-01 to \the\year-03-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\raggedleft\textbf{Кровля, почва, борта}:\\~ поверхности выработки сверху, снизу и с боков}\end{spacing}};},
+        face 4={\addwatermarkx{img/smtech-apr.png}\addlogo\calendar [dates=\the\year-04-01 to \the\year-04-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Штрек}: горизонтальная выработка, проложенная вдоль залежи и не имеющая выхода на поверхность}\end{spacing}};},
+        face 5={\addwatermarkx{img/smtech-may.png}\addlogo\calendar [dates=\the\year-05-01 to \the\year-05-last,
+        if={(equals=\the\year-05-01) [\SundayColor]},
+        if={(equals=\the\year-05-02) [\SundayColor]},
+        if={(equals=\the\year-05-08) [\SundayColor]},
+        if={(equals=\the\year-05-09) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Квершлаг}: горизонтальная выработкав пустых породах, не имеющая выхода на поверхность}\end{spacing}};},
+        face 6={\addwatermarkx{img/smtech-jun.png}\addlogo\calendar [dates=\the\year-06-01 to \the\year-06-last,
+        if={(equals=\the\year-06-12) [\SundayColor]},
+        if={(equals=\the\year-06-13) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\raggedleft\textbf{Закол}: висящий на \\~ кровле или на бортах забоя не оторвавшийся кусок породы}\end{spacing}};},
+        face 7={\addwatermarkx{img/smtech-jul.png}\addlogo\calendar [dates=\the\year-07-01 to \the\year-07-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Орт}: горизонтальная выработка, проложенная поперёк залегания полезного ископаемого}\end{spacing}};},
+        face 8={\addwatermarkx{img/smtech-aug.png}\addlogo\calendar [dates=\the\year-08-01 to \the\year-08-last,
+        if={(equals=\the\year-08-31) [\MinersDay]},
+        if={(equals=\the\year-08-31) {\node[anchor=north, opacity=0.3, inner sep=0pt, yshift=1em, xshift=-1em]{\includegraphics[width=1.2em]{img/mine.png}};}  }];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Клеть}: транспортная кабина для подъёма вагонеток, людей и оборудования по стволу}\end{spacing}};},
+        face 9={\addwatermarkx{img/smtech-sep.png}\addlogo\calendar [dates=\the\year-09-01 to \the\year-09-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Штольня}: горизонтальная или наклонная выработка, имеющая выход на поверхность}\end{spacing}};},
+        face 10={\addwatermarkx{img/smtech-oct.png}\addlogo\calendar [dates=\the\year-10-01 to \the\year-10-last];
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Лава}: длинная очистная выработка с одной стороны содержащая полезные ископаемые, а с другой — отпадные породы}\end{spacing}};},
+        face 11={\addwatermarkx{img/smtech-nov.png}\addlogo\calendar [dates=\the\year-11-01 to \the\year-11-last,
+        if={(equals=\the\year-11-1) [\RegularColor]},
+        if={(equals=\the\year-11-3) [\SundayColor]},
+        if={(equals=\the\year-11-4) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Скип}: саморазгружающаяся подъёмная клеть для сыпучих и мелких грузов}\end{spacing}};},
+        face 12={\addwatermarkx{img/smtech-dec.png}\addlogo\calendar [dates=\the\year-12-01 to \the\year-12-last,
+        if={(equals=\the\year-12-31) [\SundayColor]}];%
+        \node[align=center, text width=11em,inner sep=0, text=BlockQuoteColor] at (0, -1.9) {\begin{spacing}{0.8}\scriptsize\textit{\textbf{Бакштаг}: снасть стоячего такелажа, поддерживающая с бортов и кормы судовые мачты, трубы и т.п.}\end{spacing}};}
+    ]{dodecahedron' folding};
+    \end{tikzpicture}
+    \vfill
+\end{document}
