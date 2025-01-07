@@ -51,7 +51,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 > There are worse crimes than burning books. One of them is not reading them  
 
 **Lietuviškai (tipiškas vertimas):**  
-> ✅ Yra blogesnių nusikaltimų negu knygų degimas. Vienas iš jų yra neskaityti jų
+> ✅ Yra blogesnių nusikaltimų negu knygų deginimas. Vienas iš jų yra neskaityti jų
 
 **Aprašymas (lietuviškai):**  
 Dažniausiai ši citata siejama su Josifu Brodskiu (Joseph Brodsky), tačiau ji taip pat priskiriama ir Rejui Bredberiui. Manoma, kad Brodskis galėjo tai pasakyti 1991 m. gegužės 17 d. spaudos konferencijoje. Šią versiją nurodo ketvirtasis Oksfordo universiteto sudarytas *Oxford Essential Quotations* leidimas.
