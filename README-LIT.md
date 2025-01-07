@@ -23,7 +23,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 > Books are to remind us what asses and fools we are  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Knygos skirtos tam, kad primintų mums, kokie mes kvailiai ir asilai  
+> ❓ Knygos skirtos tam, kad primintų mums, kokie mes kvailiai ir asilai  
 
 **Aprašymas (lietuviškai):**  
 Ši citata priklauso Rejui Bredberiui (Ray Bradbury) ir paimta iš jo romano *Farenheitas 451*. Ją ištaria personažas Faberis, aiškindamas knygų reikšmę pagrindiniam veikėjui Gajui Montegui. Citata pasirodo antroje romano dalyje „Sietelis ir smėlis“, 3 skyriuje.
@@ -85,7 +85,7 @@ https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.278385
 > Censorship is never logical but, like cancer, it is dangerous to ignore it when it shows up  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Cenzūra niekada nėra logiška, tačiau, kaip vėžys, ją pavojinga ignoruoti, kai tik ji išryškėja  
+> ❓ Cenzūra niekada nėra logiška, tačiau, kaip vėžys, ją pavojinga ignoruoti, kai tik ji išryškėja  
 
 **Aprašymas (lietuviškai):**  
 Ši citata priskiriama Robertui Heinleinui (Robert A. Heinlein) ir yra iš jo romano *Plaukti anapus saulėlydžio* (angl. *To Sail Beyond the Sunset*), išleisto 1987 m.
