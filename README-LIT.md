@@ -12,7 +12,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 > If they give you ruled paper, write the other way  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Jeigu jums duoda linijuotą popierių, rašykite kitaip  
+> 🔰 Jeigu jums duoda liniuotą popierių, rašykite savaip
 
 **Aprašymas (lietuviškai):**
 Šią frazę pasakė ispanų poetas Chuanas Ramonas Chimenesas (Juan Ramón Jiménez), 1956 m. Nobelio literatūros premijos laureatas „už lyrinę poeziją, kuri ispanų kalboje yra aukštos dvasios ir meninio tyrumo pavyzdys“. Kai kuriuose Rejaus Bredberio (Ray Bradbury) knygos *Farenheitas 451* (angl. *Fahrenheit 451*) leidiniuose ši citata naudojama kaip epigrafas.
@@ -31,7 +31,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 ### 🌱 Kovas
 
 **Lietuviškai:**  
-> Žmogus turi teisę turėti savo įsitikinimus ir juos laisvai reikšti
+> ✅ Žmogus turi teisę turėti savo įsitikinimus ir juos laisvai reikšti
 
 **Aprašymas (lietuviškai):**  
 
@@ -51,7 +51,7 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 > There are worse crimes than burning books. One of them is not reading them  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Yra blogesnių nusikaltimų už knygų deginimą. Vienas iš jų – jų neskaitymas  
+> ✅ Yra blogesnių nusikaltimų negu knygų degimas. Vienas iš jų yra neskaityti jų
 
 **Aprašymas (lietuviškai):**  
 Dažniausiai ši citata siejama su Josifu Brodskiu (Joseph Brodsky), tačiau ji taip pat priskiriama ir Rejui Bredberiui. Manoma, kad Brodskis galėjo tai pasakyti 1991 m. gegužės 17 d. spaudos konferencijoje. Šią versiją nurodo ketvirtasis Oksfordo universiteto sudarytas *Oxford Essential Quotations* leidimas.
@@ -62,7 +62,7 @@ Dažniausiai ši citata siejama su Josifu Brodskiu (Joseph Brodsky), tačiau ji 
 > Freedom is the right to tell people what they do not want to hear  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Laisvė – tai teisė sakyti žmonėms tai, ko jie nenori girdėti  
+> 🔰 Laisvė – tai teisė sakyti žmonėms tai, ko jie nenori girdėti  
 
 **Aprašymas (lietuviškai):**  
 Citatą randame Džordžo Orvelo (George Orwell) esė „Spaudos laisvė“ (angl. „The Freedom of the Press“). Ji turėjo būti įžanga prie garsiosios apysakos *Gyvulių ūkis* (angl. *Animal Farm*), tačiau nebuvo įtraukta į pirmąjį originalų leidimą ir paskelbta tik vėliau.
@@ -73,7 +73,7 @@ Citatą randame Džordžo Orvelo (George Orwell) esė „Spaudos laisvė“ (ang
 > Everyone has the right to freedom of opinion and expression  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Kiekvienas turi teisę laisvai laikytis savo įsitikinimų ir juos reikšti
+> ✅ Kiekvienas turi teisę laisvai laikytis savo įsitikinimų ir juos reikšti
 
 **Aprašymas (lietuviškai):**  
 Tai frazė iš 19-ojo Visuotinės žmogaus teisių deklaracijos (priimtos Jungtinių Tautų Generalinėje Asamblėjoje 1948 m. gruodžio 10 d.) straipsnio.
@@ -96,7 +96,7 @@ https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.278385
 > The good half of the modern culture depends on what one shouldn't read  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Gera šiuolaikinės kultūros pusė laikosi to, ko žmogus neturėtų skaityti  
+> ✅ Šiuolaikinė kultūra didžia dalim remiasi tuo, ko nereikia skaityti
 
 **Aprašymas (lietuviškai):**  
 Citatą rasime Oscaro Vaildo (Oscar Wilde) komedijoje *Kaip svarbu būti rimtam* (angl. *The Importance of Being Earnest*), pirmą kartą pastatytoje 1895 m. vasario 14 d.
@@ -107,7 +107,7 @@ Citatą rasime Oscaro Vaildo (Oscar Wilde) komedijoje *Kaip svarbu būti rimtam*
 > I love to do things that won't pass censorship  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Man patinka daryti tai, kas nepraeis cenzūros  
+> 🔰 Aš mėgstų datyri tai, kas nepraeitų cenzūros
 
 **Aprašymas (lietuviškai):**  
 Autorystė nėra patikimai nustatyta. Dažnai teigiama, kad tai pasakė Merilina Monro (Marilyn Monroe), tačiau citata taip pat priskiriama Jekaterinai Mizulinai, Antonui Gorelkinui, Žanai d’Ark ar Kleopatrai. Patvirtinimo nėra.
@@ -118,7 +118,7 @@ Autorystė nėra patikimai nustatyta. Dažnai teigiama, kad tai pasakė Merilina
 > The Net interprets censorship as damage and routes around it  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Tinklas į cenzūrą žvelgia kaip į trikdį ir apeina ją  
+> 🔰 Internetas supranta cenzūrą kaip gedimą, todėl bando ją apeiti
 
 **Aprašymas (lietuviškai):**  
 Tai Džono Gilmoro (John Gilmore) – amerikiečių programuotojo, aktyvisto ir vieno iš *Electronic Frontier Foundation* (EFF) įkūrėjų – citata, paskelbta 1993 m. žurnale *Time*.
@@ -132,7 +132,7 @@ Tai Džono Gilmoro (John Gilmore) – amerikiečių programuotojo, aktyvisto ir 
 > They were so used to lying that they couldn't simply admit they were afraid  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Jie buvo taip įpratę meluoti, kad negalėjo paprastai pripažinti, jog bijo  
+> 🔰 Jie buvo taip įpratę meluoti, kad negalėjo paprastai pripažinti, jog bijo  
 
 **Aprašymas (lietuviškai):**  
 Citata iš Džanio Rodario (Gianni Rodari) knygos *Dželsominas melagių šalyje* (it. *Gelsomino nel paese dei bugiardi*), pirmą kartą išleistos 1959 m.
@@ -143,7 +143,7 @@ Citata iš Džanio Rodario (Gianni Rodari) knygos *Dželsominas melagių šalyje
 > For the love of God, Montresor!  
 
 **Lietuviškai (tipiškas vertimas):**  
-> Dėl Dievo meilės, Montresorai!  
+> ✅ Dėl Dievo meilės, Montresorai!  
 
 **Aprašymas (lietuviškai):**  
 Šis beviltiškas šauksmas nuskamba Edgaro Alano Po (Edgar Allan Poe) novelėje *Amontiljado statinė* (angl. *The Cask of Amontillado*), kai personažas Fortunatas yra gyvas užmūrijamas katakombose pagrindinio veikėjo Montresoro. Tą pačią sceną su aliuzija į Po kūrinį atkartoja Rejus Bredberis (Ray Bradbury) apsakyme „Ešeris II“ iš rinkinio *Marso kronikos* (angl. *The Martian Chronicles*). Ten veikėjas Viljamas Stendalis apgaulės būdu prisivilioja pagrindinį cenzorių Garretą į specialiai Marsui pastatytus rūmus, primenančius Po *Ašerio namo žlugimą* (angl. *The Fall of the House of Usher*), ir, pasinaudodamas Garreto neišmanymu, žiauriai jį užmūrija. Taip Bredberis nepastebimai užsimena ir apie *Farenheitą 451*.
