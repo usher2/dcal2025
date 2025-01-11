@@ -1,6 +1,9 @@
 Dodecahedron desk calendar 2025
 ----------------------------------------------
 
+[Usher II Telegram channel (Russian language)](https://t.me/usher2)
+[Usher II site (not updated long time)](https://usher2.club)
+
 * Usher II branding
 * Created with LaTeX
 
