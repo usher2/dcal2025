@@ -20,7 +20,7 @@ Dodecahedron desk calendar 2025
 |   |   |
 | **🇺🇸 Freedom of speech** | **🇷🇺 VPN** |
 | [![Calendar of the Usher II project. Freedom of speech](dcal2025-en.png)](dcal2025-en.pdf) | [![Календарь проекта Эшер II. VPN](dcal2025-vpn-ru.png)](dcal2025-vpn-ru.pdf) |
-| [EN freedom of speech Legend in ENGLISH](README-ENG.md) | - |
+| [EN freedom of speech Legend in ENGLISH](README-ENG.md) | **Различай X-Ray и AmneziaVPN** |
 |   |   |
 | **🇷🇺 SM Tech** |  |
 | [![Календарь проекта Эшер II. SM Tech](dcal2025-smtech-ru.png)](dcal2025-smtech-ru.pdf) |  |
