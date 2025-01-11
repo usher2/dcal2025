@@ -20,5 +20,10 @@ Dodecahedron desk calendar 2025
 | [EN freedom of speech Legend in ENGLISH](README-ENG.md) | - |
 
 
+| 🇷🇺 SM Tech |  |
+| --- | --- |
+| [![Календарь проекта Эшер II. SM Tech](dcal2025-smtech-ru.png)](dcal2025-smtech-ru.pdf) |  |
+| **Отличи бакштаг от квершлага** | - |
+
 ---
 [![UNLICENSE](noc.png)](UNLICENSE)
