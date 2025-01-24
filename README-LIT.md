@@ -11,8 +11,8 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 **Angliškai:**  
 > If they give you ruled paper, write the other way  
 
-**Lietuviškai (tipiškas vertimas):**  
-> 🔰 Jeigu jums duoda liniuotą popierių, rašykite savaip
+**Lietuviškai (vertimas į lietuvių kalbą: Edita Mažonienė):**  
+> ✅ Jeigu jums duotų liniuoto popieriaus, rašykite skersai
 
 **Aprašymas (lietuviškai):**
 Šią frazę pasakė ispanų poetas Chuanas Ramonas Chimenesas (Juan Ramón Jiménez), 1956 m. Nobelio literatūros premijos laureatas „už lyrinę poeziją, kuri ispanų kalboje yra aukštos dvasios ir meninio tyrumo pavyzdys“. Kai kuriuose Rejaus Bredberio (Ray Bradbury) knygos *Farenheitas 451* (angl. *Fahrenheit 451*) leidiniuose ši citata naudojama kaip epigrafas.
@@ -22,8 +22,8 @@ Kalendoriaus dodekaedras 2025. Žodžio laisvė
 **Angliškai:**  
 > Books are to remind us what asses and fools we are  
 
-**Lietuviškai (tipiškas vertimas):**  
-> ❓ Knygos skirtos tam, kad primintų mums, kokie mes kvailiai ir asilai  
+**Lietuviškai (vertimas į lietuvių kalbą: Edita Mažonienė):**  
+> ✅ Knygos skirtos tam, kad mums primintų, kokie esam kvailiai ir užsispyrę asilai  
 
 **Aprašymas (lietuviškai):**  
 Ši citata priklauso Rejui Bredberiui (Ray Bradbury) ir paimta iš jo romano *Farenheitas 451*. Ją ištaria personažas Faberis, aiškindamas knygų reikšmę pagrindiniam veikėjui Gajui Montegui. Citata pasirodo antroje romano dalyje „Sietelis ir smėlis“, 3 skyriuje.
