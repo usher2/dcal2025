@@ -61,8 +61,9 @@ Dažniausiai ši citata siejama su Josifu Brodskiu (Joseph Brodsky), tačiau ji 
 **Angliškai:**  
 > Freedom is the right to tell people what they do not want to hear  
 
-**Lietuviškai (tipiškas vertimas):**  
-> 🔰 Laisvė – tai teisė sakyti žmonėms tai, ko jie nenori girdėti  
+**Lietuviškai (vertė Edita Mažonienė):**  
+> ✅ Laisvė – tai teisę sakyti žmonėms tai, ko jie nenori girdėti  
+> (Jei laisvė iš viso ką nors reiškia, tai būtent teisę sakyti žmonėms tai, ko jie nenori girdėti)
 
 **Aprašymas (lietuviškai):**  
 Citatą randame Džordžo Orvelo (George Orwell) esė „Spaudos laisvė“ (angl. „The Freedom of the Press“). Ji turėjo būti įžanga prie garsiosios apysakos *Gyvulių ūkis* (angl. *Animal Farm*), tačiau nebuvo įtraukta į pirmąjį originalų leidimą ir paskelbta tik vėliau.
